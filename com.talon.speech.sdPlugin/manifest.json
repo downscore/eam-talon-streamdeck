@@ -1,0 +1,111 @@
+{
+  "Actions": [
+    {
+      "Icon": "icon",
+      "Name": "Speech Status",
+      "States": [
+        {
+          "Image": "defaultImage",
+          "Title": "Speech On",
+          "TitleAlignment": "bottom",
+          "FontSize": "12"
+        },
+        {
+          "Image": "defaultImage",
+          "Title": "Speech Off",
+          "TitleAlignment": "bottom",
+          "FontSize": "12"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Show speech status.",
+      "UUID": "com.talon.speech.speechstatus",
+      "PropertyInspectorPath": "PropertyInspector/MonitorStatus.html"
+    },
+    {
+      "Icon": "icon",
+      "Name": "Tag Status",
+      "States": [
+        {
+          "Image": "defaultImage",
+          "Title": "Tag On",
+          "TitleAlignment": "bottom",
+          "FontSize": "12"
+        },
+        {
+          "Image": "defaultImage",
+          "Title": "Tag Off",
+          "TitleAlignment": "bottom",
+          "FontSize": "12"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Show tag status.",
+      "UUID": "com.talon.speech.tagstatus",
+      "PropertyInspectorPath": "PropertyInspector/MonitorStatus.html"
+    },
+    {
+      "Icon": "icon",
+      "Name": "Mode Status",
+      "States": [
+        {
+          "Image": "defaultImage",
+          "Title": "Mode On",
+          "TitleAlignment": "bottom",
+          "FontSize": "12"
+        },
+        {
+          "Image": "defaultImage",
+          "Title": "Mode Off",
+          "TitleAlignment": "bottom",
+          "FontSize": "12"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Show mode status.",
+      "UUID": "com.talon.speech.modestatus",
+      "PropertyInspectorPath": "PropertyInspector/MonitorStatus.html"
+    },
+    {
+      "Icon": "icon",
+      "Name": "App Status",
+      "States": [
+        {
+          "Image": "defaultImage",
+          "Title": "App On",
+          "TitleAlignment": "bottom",
+          "FontSize": "12"
+        },
+        {
+          "Image": "defaultImage",
+          "Title": "App Off",
+          "TitleAlignment": "bottom",
+          "FontSize": "12"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Show app status.",
+      "UUID": "com.talon.speech.appstatus",
+      "PropertyInspectorPath": "PropertyInspector/MonitorStatus.html"
+    }
+  ],
+  "Author": "Eam",
+  "Description": "Speech system integration.",
+  "Name": "Talon Stream Deck",
+  "Icon": "pluginIcon",
+  "URL": "https://talonvoice.com/",
+  "Version": "0.1",
+  "CodePath": "speech",
+  "Category": "Talon",
+  "CategoryIcon": "categoryIcon",
+  "OS": [
+    {
+      "Platform": "mac",
+      "MinimumVersion": "10.11"
+    }
+  ],
+  "SDKVersion": 2,
+  "Software": {
+    "MinimumVersion": "4.4.1"
+  }
+}
